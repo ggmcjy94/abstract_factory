@@ -13,6 +13,7 @@
  
 
 3. 장단점
+
  1.장점
  - 구체적인 클래스를 분리한다. 추상팩토리 패턴을 끄면 응용 프로그램이 생성할 객체의 클래스를 제어할 수 있다. 팩토리는 제품 객체를 생성하는 과정과 책임을 캡슐화 한 것이기 때문에,
  구체적인 구현 클래스가 사용자에게서 분리된다. 일반 프로그램은 추상 인터페이스를 통해서만 인스턴스를 조작한다.
@@ -23,6 +24,7 @@
  경해야 한다. 이는 추상 팩토리와 모든 서브클래스의 변경을 가져온다.
  
 4. 사용 라이브러리
+
  1. 자바 라이브러리
    - javax.xml.xpath.XPathFactory#newInstance()
    - javax.xml.transform.TransformerFactory#newInstance() javax.xml.parsers.DocumentBuilderFactory#newInstance()
