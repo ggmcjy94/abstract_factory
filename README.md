@@ -29,5 +29,6 @@
  1-자바 라이브러리
    - javax.xml.xpath.XPathFactory#newInstance()
    - javax.xml.transform.TransformerFactory#newInstance() javax.xml.parsers.DocumentBuilderFactory#newInstance()
+
  2-스프링
    - FactoryBean과 그 구현체
